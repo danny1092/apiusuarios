@@ -19,6 +19,7 @@ public class App {
     });
     // Comentario
     //Comentario 2
+    // comentario 3
     // Ruta para manejar la preflight OPTIONS (CORS)
     app.options("/*", ctx -> {
       ctx.header("Access-Control-Allow-Origin", "*");
